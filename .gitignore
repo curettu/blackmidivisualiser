@@ -1,0 +1,50 @@
+## Build
+bin/
+obj/
+publish/
+dist/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.rsuser
+*.csproj.user
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Publish artifacts
+*.pdb
+*.log
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## MIDI test dumps (keep repo small)
+*.mid
+*.midi
+*.MID
+!samples/**
+
+## Secrets
+*.pfx
+appsettings.*.json
+
+## C# Other Files
+bin/
+obj/
